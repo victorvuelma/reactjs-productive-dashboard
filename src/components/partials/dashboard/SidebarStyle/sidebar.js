@@ -6,7 +6,7 @@ import VerticalNav from '../SidebarStyle/vertical-nav'
 import Scrollbar from "smooth-scrollbar";
 
 // Import selectors & action from setting store
-import * as SettingSelector from "../../../../store/setting/selectors";
+import * as SettingSelector from "../../../../store/setting/selectors.ts";
 
 // Redux Selector / Action
 import { useSelector } from "react-redux";

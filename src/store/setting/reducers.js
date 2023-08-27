@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { initialState, defaultState } from './state';
+import { initialState, defaultState } from './state.ts';
 import { updateThemeScheme, updateBodyClass, updateHtmlClass, updateHtmlAttr, updateTitle, updateColorRootVar, updateStorage, updateDomValueBySetting, getStorage } from '../../utilities/setting'
 import { setFontFamily } from '../../utilities/root-var'
 import _ from 'lodash'

@@ -56,7 +56,7 @@ import '../../node_modules/prismjs/themes/prism-okaidia.css'
 import SliderTab from '../plugins/slider-tabs'
 
 // Import selectors & action from setting store
-import * as SettingSelector from "../store/setting/selectors";
+import * as SettingSelector from "../store/setting/selectors.ts";
 
 // Redux Selector / Action
 import { useSelector } from "react-redux";

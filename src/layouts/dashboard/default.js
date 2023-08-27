@@ -28,7 +28,7 @@ import SettingOffCanvas from "../../components/setting/SettingOffCanvas";
 import Loader from "../../components/Loader";
 
 // Import selectors & action from setting store
-import * as SettingSelector from "../../store/setting/selectors";
+import * as SettingSelector from "../../store/setting/selectors.ts";
 
 // Redux Selector / Action
 import { useSelector } from "react-redux";

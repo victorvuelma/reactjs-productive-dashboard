@@ -28,7 +28,7 @@ import Logo from '../../components/logo'
 import { useSelector } from 'react-redux';
 
 // Import selectors & action from setting store
-import * as SettingSelector from '../../../../store/setting/selectors'
+import * as SettingSelector from '../../../../store/setting/selectors.ts'
 
 const Header = memo((props) => {
     const navbarHide = useSelector(SettingSelector.navbar_show); // array
